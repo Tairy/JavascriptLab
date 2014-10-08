@@ -1,4 +1,6 @@
 GameLab
 =======
 
-游戏实验室
+- index/ : 站点主页
+- test/ : 一些效果的测试
+- canvas/ : canvas学习
