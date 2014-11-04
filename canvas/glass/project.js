@@ -33,10 +33,10 @@ var Glass = {
 				}
 				draw(e);
 				document.body.onmousemove = draw;
-				// document.body.onmouseup = function() {
-				// 	self.hide();
-				// 	document.body.onmousemove = null;
-				// };
+				document.body.onmouseup = function() {
+					self.hide();
+					document.body.onmousemove = null;
+				};
 			}
 		};
 	},
@@ -46,8 +46,6 @@ var Glass = {
 		this.ctx.drawImage(this.hEle, x, y, w, h, 0, 0, 100, 100);
 	},
 	show: function ( x, y ) {
-		console.log(x);
-		console.log(y);
 		this.canvas.style.display = "block";
 		this.canvas.style.left = x + "px";
 		this.canvas.style.top = y + "px";

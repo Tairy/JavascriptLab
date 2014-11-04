@@ -1,0 +1,17 @@
+div{
+	width:100px;
+	height: 100px;
+}
+div#pic{
+	background: #237449;
+  background-image: linear-gradient(to bottom,
+                                transparent 62%,
+                                black(.3) 100%);
+  box-shadow: 2px 2px 3px black(.3);
+}
+div#pic:after{
+	/*background: green;*/
+}
+div#pic:before{
+	/*background: black;*/
+}
